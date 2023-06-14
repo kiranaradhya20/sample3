@@ -70,6 +70,7 @@ class prediction:
             self.log_writer.log(self.file_object, 'Error occured while running the prediction!! Error:: %s' % ex)
             raise ex
         return path
+    
 
             # old code
             # i=0
